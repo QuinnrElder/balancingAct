@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Mod1_Balancing Act</title>
-    <link rel="stylesheet" href="css/syles.css">
+    <link rel="stylesheet" href="/syles.css">
 </head>
 
 <body>
@@ -12,13 +12,13 @@
 
       <nav class="navigation-bar">
         <img class="elephant" src="assets/elephant.svg" alt="Elephant Balancing on Globe"/>
-        <ul>
+        <ul style="list-style: none;">
           <li><a href="" target="_blank">
-            <img class= "clipboard" src="assets/dashboard.svg" alt="Black and White Clipboard"></a></li>
+            <img class= "nav-icons" src="assets/dashboard.svg" alt="Black and White Clipboard"></a></li>
           <li><a href="" target="_blank">
-            <img class= "" src="" alt=""></a></li>
+            <img class= "nav-iconst" src="assets/transactions.svg" alt="Wallet with Ceditcard"></a></li>
           <li><a href="" target="_blank">
-            <img class= "wallet" src="assets/transactions.svg" alt="Wallet with Ceditcard"></a></li>
+            <img class= "nav-icons" src="assets/profile.svg" alt="Outline of a Woman"></a></li>
         </ul>
       </nav>
 
@@ -26,23 +26,127 @@
 
     <main>
       <h1 class="balancing">Balancing Act</h1>
-      <h3 class="welcome" id="welcomeBadge">Welcome Oscar!</h3>
 
-      <div>
-        <section class="income">
-          <!-- can i use line breaks in html or css -->
-        </section>
-        <section class="expenses">
-          <!-- can i use line breaks in html or css -->
-        </section>
-        <section class="credit-score">
-          <!-- can i use line breaks in html or css -->
-        </section>
-      </div>
+      <article class="main-article">
+        <h3 class="welcome" id="welcomeBadge">Welcome Oscar!</h3>
 
-      <h2 class="accounts-head">Accounts</h2>
-      <button class="manage-accounts-button" type="button" name="button">Manage Accounts</button>
-      
+        <div class="all-accounts-info">
+          <div class="personal-account-info">
+            <section class="personal">
+              <p>income</p>
+              <p>$2,119.12</p>
+            </section>
+            <section class="personal">
+              <p>Expenses</p>
+              <p>$420.54</p>
+            </section>
+            <section class="personal">
+              <p>Credit Score</p>
+              <p>673</p>
+            </section>
+          </div>
+
+          <section class="accounts-header">
+            <h2 class="account">Accounts</h2>
+            <button class="manage-accounts-button" type="button" name="button">Manage Accounts</button>
+
+            <div class="my-accounts">
+
+              <section class="account-row">
+
+              </section>
+              <section class="account-row">
+
+              </section>
+              <section class="account-row">
+
+              </section>
+              <section class="account-row">
+
+              </section>
+            </div>
+          </section>
+        </div>
+
+        <section class="all-transactions">
+          <div class="recent-transactions">
+            <p>Recent Transactions</p>
+            <button class="manage-accounts-button" type="button" name="button">New Transactions</button>
+
+            <table>
+              <thead>
+                  <tr>
+                      <th colspan="1">Date</th>
+                      <th colspan="1">Payee</th>
+                      <th colspan="1">Inflow</th>
+                      <th colspan="1">Outflow</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Oct 25, 2019</td>
+                      <td class="payee-column">Target</td>
+                      <td> - </td>
+                      <td>$82.35</td>
+                  </tr>
+                  <tr>
+                    <td>Oct 24, 2019</td>
+                    <td class="payee-column">Express</td>
+                    <td> - </td>
+                    <td>$212.24</td>
+                  </tr>
+                  <tr>
+                    <td>Oct 22, 2019</td>
+                    <td class="payee-column">Paycheck</td>
+                    <td>$1,319.12</td>
+                    <td> - </td>
+                  </tr>
+                  <tr>
+                    <td>Oct 21, 2019</td>
+                    <td class="payee-column">Trader Joe's</td>
+                    <td> - </td>
+                    <td>$54.94</td>
+                  </tr>
+                  <tr>
+                    <td>Oct 20, 2019</td>
+                    <td class="payee-column">Shell</td>
+                    <td> - </td>
+                    <td>$46.23</td>
+                  </tr>
+                  <tr>
+                    <td>Oct 19, 2019</td>
+                    <td class="payee-column">Rent</td>
+                    <td> $800.00 </td>
+                    <td> - </td>
+                  </tr>
+                  <tr>
+                    <td>Oct 19, 2019</td>
+                    <td class="payee-column">Hapa Sushi</td>
+                    <td> - </td>
+                    <td>$13.97</td>
+                  </tr>
+                  <tr>
+                    <td>Oct 18, 2019</td>
+                    <td class="payee-column">pig Train</td>
+                    <td> - </td>
+                    <td>$4.83</td>
+                  </tr>
+                  <tr>
+                    <td>Oct 18, 2019</td>
+                    <td class="payee-column">RTD</td>
+                    <td> - </td>
+                    <td>$6.00</td>
+                  </tr>
+              </tbody>
+            </table>
+
+          </div>
+
+        </section>
+
+
+      </article>
+
 
 
 
