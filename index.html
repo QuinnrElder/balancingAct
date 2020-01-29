@@ -11,15 +11,16 @@
     <header>
 
       <nav class="navigation-bar">
-        <img class="elephant" src="assets/elephant.svg" alt="Elephant Balancing on Globe"/>
-        <ul style="list-style: none;">
+
+        <ol style="list-style: none;">
+          <li><img class="elephant" src="assets/elephant.svg" alt="Elephant Balancing on Globe"/></li>
           <li><a href="" target="_blank">
             <img class= "nav-icons" src="assets/dashboard.svg" alt="Black and White Clipboard"></a></li>
           <li><a href="" target="_blank">
             <img class= "nav-iconst" src="assets/transactions.svg" alt="Wallet with Ceditcard"></a></li>
           <li><a href="" target="_blank">
             <img class= "nav-icons" src="assets/profile.svg" alt="Outline of a Woman"></a></li>
-        </ul>
+        </ol>
       </nav>
 
     </header>
@@ -28,9 +29,12 @@
       <h1 class="balancing">Balancing Act</h1>
 
       <article class="main-article">
-        <h3 class="welcome" id="welcomeBadge">Welcome Oscar!</h3>
 
-        <div class="all-accounts-info">
+        <section class="user-welcome">
+
+          <h3 class="personal-welcome" id="welcomeBadge">Welcome Oscar!</h3>
+
+
           <div class="personal-account-info">
             <section class="personal">
               <p>income</p>
@@ -45,106 +49,105 @@
               <p>673</p>
             </section>
           </div>
+        </section>
 
-          <section class="accounts-header">
-            <h2 class="account">Accounts</h2>
+        <section class="accounts-header">
+          <div class="">
+            <h2 class="accounts">Accounts</h2>
             <button class="manage-accounts-button" type="button" name="button">Manage Accounts</button>
-
-            <div class="my-accounts">
-
-              <section class="account-row">
-
-              </section>
-              <section class="account-row">
-
-              </section>
-              <section class="account-row">
-
-              </section>
-              <section class="account-row">
-
-              </section>
-            </div>
-          </section>
-        </div>
-
-        <section class="all-transactions">
-          <div class="recent-transactions">
-            <p>Recent Transactions</p>
-            <button class="manage-accounts-button" type="button" name="button">New Transactions</button>
-
-            <table>
-              <thead>
-                  <tr>
-                      <th colspan="1">Date</th>
-                      <th colspan="1">Payee</th>
-                      <th colspan="1">Inflow</th>
-                      <th colspan="1">Outflow</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td>Oct 25, 2019</td>
-                      <td class="payee-column">Target</td>
-                      <td> - </td>
-                      <td>$82.35</td>
-                  </tr>
-                  <tr>
-                    <td>Oct 24, 2019</td>
-                    <td class="payee-column">Express</td>
-                    <td> - </td>
-                    <td>$212.24</td>
-                  </tr>
-                  <tr>
-                    <td>Oct 22, 2019</td>
-                    <td class="payee-column">Paycheck</td>
-                    <td>$1,319.12</td>
-                    <td> - </td>
-                  </tr>
-                  <tr>
-                    <td>Oct 21, 2019</td>
-                    <td class="payee-column">Trader Joe's</td>
-                    <td> - </td>
-                    <td>$54.94</td>
-                  </tr>
-                  <tr>
-                    <td>Oct 20, 2019</td>
-                    <td class="payee-column">Shell</td>
-                    <td> - </td>
-                    <td>$46.23</td>
-                  </tr>
-                  <tr>
-                    <td>Oct 19, 2019</td>
-                    <td class="payee-column">Rent</td>
-                    <td> $800.00 </td>
-                    <td> - </td>
-                  </tr>
-                  <tr>
-                    <td>Oct 19, 2019</td>
-                    <td class="payee-column">Hapa Sushi</td>
-                    <td> - </td>
-                    <td>$13.97</td>
-                  </tr>
-                  <tr>
-                    <td>Oct 18, 2019</td>
-                    <td class="payee-column">pig Train</td>
-                    <td> - </td>
-                    <td>$4.83</td>
-                  </tr>
-                  <tr>
-                    <td>Oct 18, 2019</td>
-                    <td class="payee-column">RTD</td>
-                    <td> - </td>
-                    <td>$6.00</td>
-                  </tr>
-              </tbody>
-            </table>
-
           </div>
 
+          <div class="my-accounts">
+
+            <section class="account-row">
+              <img src="assets/checking.svg" alt="Checkbook">
+            </section>
+            <section class="account-row">
+              <img src="assets/savings.svg" alt="Piggy-Bank">
+            </section>
+            <section class="account-row">
+              <img src="assets/credit-card.svg" alt="Credit Cards">
+            </section>
+            <section class="account-row">
+              <img src="assets/credit-card.svg" alt="Credit Cards">
+            </section>
+          </div>
         </section>
 
 
+        <section class="all-transactions">
+
+          <p>Recent Transactions</p>
+          <button class="manage-accounts-button" type="button" name="button">New Transactions</button>
+
+          <table>
+            <thead>
+              <tr>
+                <th colspan="1">Date</th>
+                <th colspan="1">Payee</th>
+                <th colspan="1">Inflow</th>
+                <th colspan="1">Outflow</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Oct 25, 2019</td>
+                <td class="payee-column">Target</td>
+                <td> - </td>
+                <td>$82.35</td>
+              </tr>
+              <tr>
+                <td>Oct 24, 2019</td>
+                <td class="payee-column">Express</td>
+                <td> - </td>
+                <td>$212.24</td>
+              </tr>
+              <tr>
+                <td>Oct 22, 2019</td>
+                <td class="payee-column">Paycheck</td>
+                <td>$1,319.12</td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Oct 21, 2019</td>
+                <td class="payee-column">Trader Joe's</td>
+                <td> - </td>
+                <td>$54.94</td>
+              </tr>
+              <tr>
+                <td>Oct 20, 2019</td>
+                <td class="payee-column">Shell</td>
+                <td> - </td>
+                <td>$46.23</td>
+              </tr>
+              <tr>
+                <td>Oct 19, 2019</td>
+                <td class="payee-column">Rent</td>
+                <td> $800.00 </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Oct 19, 2019</td>
+                <td class="payee-column">Hapa Sushi</td>
+                <td> - </td>
+                <td>$13.97</td>
+              </tr>
+              <tr>
+                <td>Oct 18, 2019</td>
+                <td class="payee-column">pig Train</td>
+                <td> - </td>
+                <td>$4.83</td>
+              </tr>
+              <tr>
+                <td>Oct 18, 2019</td>
+                <td class="payee-column">RTD</td>
+                <td> - </td>
+                <td>$6.00</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </section>
       </article>
 
 
