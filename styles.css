@@ -1,0 +1,138 @@
+/* <heading> */
+/* body */
+
+/* Navagation bar */
+.navigation-bar {
+  border: 1rem solid orange;
+  height: 100%;
+  width: 200px;
+}
+/* nav icons */
+.elephant {
+  height: 115px;
+  width: 115px;
+  margin: 10px 0px 250px;
+
+}
+.nav-icons {
+height: 100px;
+width:100px;
+}
+.img-woman {
+  margin-bottom: 100%;
+}
+
+/* Main */
+
+/* Title */
+.balancing-act {
+/* display: inline-block; */
+border: 10px solid grey
+}
+
+/* Main content of page <article>*/
+.main-article {
+border: 10px solid black;
+height: 900px;
+}
+
+/* Welcoming the user <section1> */
+.welcoming-user {
+border: 10px solid yellow;
+padding: 10px;
+/* justify-content: center; */
+
+}
+.physical-welcome {
+border: 10px solid teal;
+width: 200px;
+}
+
+/* Personal user info <div><section1 continued> */
+.personal-account-info {
+border: 10px solid red;
+width: 300px;
+}
+/* income, expense, credit score */
+.personal-cell {
+border: 10px solid black;
+}
+
+/* Accounts information <section2> */
+.accounts-section {
+border: 10px solid green;
+width: 400px;
+height: 400px;
+float: left;
+}
+
+/* contains Accounts and button */
+.accounts-header {
+border: 10px solid lightgreen;
+}
+.account {
+display: inline-block;
+}
+/* Manage Accounts button */
+.manage-accounts-button {
+border: solid;
+}
+
+/* user accounts <div> */
+.user-accounts {
+border: solid;
+}
+
+/* individual accounts */
+.account-cells {
+border: solid;
+height: 50px;
+width: 199px;
+}
+.account-imgs {
+  height: 20px;
+  width: 20px;
+}
+
+/* All user transaction history <section3>*/
+.all-transactions {
+border: 2px solid green;
+float: right;
+}
+
+/* Transaction history title <div> */
+.transaction-header {
+border: 2px solid white;
+}
+/* transaction title */
+.recent-trans {
+border: 2px solid lightblue;
+}
+/* new transaction button */
+.manage-transaction-button {
+border: solid;
+}
+.keys {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxx

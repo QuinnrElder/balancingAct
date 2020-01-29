@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Mod1_Balancing Act</title>
-    <link rel="stylesheet" href="/syles.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 <body>
@@ -17,76 +17,85 @@
           <li><a href="" target="_blank">
             <img class= "nav-icons" src="assets/dashboard.svg" alt="Black and White Clipboard"></a></li>
           <li><a href="" target="_blank">
-            <img class= "nav-iconst" src="assets/transactions.svg" alt="Wallet with Ceditcard"></a></li>
+            <img class= "nav-icons" src="assets/transactions.svg" alt="Wallet with Ceditcard"></a></li>
           <li><a href="" target="_blank">
-            <img class= "nav-icons" src="assets/profile.svg" alt="Outline of a Woman"></a></li>
+            <img class= "nav-icons img-woman" src="assets/profile.svg" alt="Outline of a Woman"></a></li>
         </ol>
       </nav>
 
     </header>
 
     <main>
-      <h1 class="balancing">Balancing Act</h1>
+      <h1 class="balancing-act">Balancing Act</h1>
 
       <article class="main-article">
 
-        <section class="user-welcome">
+        <section1 class="welcoming-user">
 
-          <h3 class="personal-welcome" id="welcomeBadge">Welcome Oscar!</h3>
+          <h3 class="physical-welcome" id="welcomeBadge">Welcome Oscar!</h3>
 
 
           <div class="personal-account-info">
-            <section class="personal">
-              <p>income</p>
+            <section class="personal-cell">
+              <p>Income</p>
               <p>$2,119.12</p>
             </section>
-            <section class="personal">
+            <section class="personal-cell">
               <p>Expenses</p>
               <p>$420.54</p>
             </section>
-            <section class="personal">
+            <section class="personal-cell">
               <p>Credit Score</p>
               <p>673</p>
             </section>
           </div>
-        </section>
+        </section1>
 
-        <section class="accounts-header">
-          <div class="">
+        <section2 class="accounts-section">
+          <div class="accounts-header">
             <h2 class="accounts">Accounts</h2>
             <button class="manage-accounts-button" type="button" name="button">Manage Accounts</button>
           </div>
 
-          <div class="my-accounts">
+          <div class="user-accounts">
 
-            <section class="account-row">
-              <img src="assets/checking.svg" alt="Checkbook">
+            <section class="account-cells">
+              <img class="account-imgs" src="assets/checking.svg" alt="Checkbook">
+              <p>Wells Fargo</p>
+              <p>Checkings</p>
             </section>
-            <section class="account-row">
-              <img src="assets/savings.svg" alt="Piggy-Bank">
+            <section class="account-cells">
+              <img class="account-imgs" src="assets/savings.svg" alt="Piggy-Bank">
+              <p>Wells Fargo</p>
+              <p>Checkings</p>
             </section>
-            <section class="account-row">
-              <img src="assets/credit-card.svg" alt="Credit Cards">
+            <section class="account-cells">
+              <img class="account-imgs" src="assets/credit-card.svg" alt="Credit Cards">
+              <p>Amazon Credit</p>
+              <p>Credit Card</p>
             </section>
-            <section class="account-row">
-              <img src="assets/credit-card.svg" alt="Credit Cards">
+            <section class="account-cells">
+              <img class="account-imgs" src="assets/credit-card.svg" alt="Credit Cards">
+              <p>Southwest Credit</p>
+              <p>Credit Card</p>
             </section>
           </div>
-        </section>
+        </section2>
 
 
-        <section class="all-transactions">
+        <section3 class="all-transactions">
 
-          <p>Recent Transactions</p>
-          <button class="manage-accounts-button" type="button" name="button">New Transactions</button>
-
+          <div class="transaction-header">
+            <h2 class="recent-trans">Recent Transactions</h2>
+            <button class="manage-transaction-button" type="button" name="button">New Transactions</button>
+          </div>
           <table>
             <thead>
               <tr>
-                <th colspan="1">Date</th>
-                <th colspan="1">Payee</th>
-                <th colspan="1">Inflow</th>
-                <th colspan="1">Outflow</th>
+                <th class="keys" colspan="1">Date</th>
+                <th class="keys"colspan="1">Payee</th>
+                <th class="keys"colspan="1">Inflow</th>
+                <th class="keys"colspan="1">Outflow</th>
               </tr>
             </thead>
             <tbody>
@@ -147,7 +156,7 @@
             </tbody>
           </table>
 
-        </section>
+        </section3>
       </article>
 
 
