@@ -25,22 +25,22 @@
 
     <article class="main-article">
       <section class="middle-content">
-        <section class="welcome-header">
+        <section id="welcome-header">
           <h3 class="physical-welcome">Welcome Oscar!</h3>
-          <img class="close-icon" src="assets/close.svg" alt="Close Icon" />
+          <img id="close-icon" src="assets/close.svg" alt="Close Icon" />
         </section>
         <div class="personal-account-info">
-          <section class="personal-cell">
-            <p>INCOME</p>
-            <p>$2,119.12</p>
+          <section class="personal-cell income-cell">
+            <p class="account-cell-title">INCOME</p>
+            <p class="account-cell-value">$2,119.12</p>
           </section>
-          <section class="personal-cell">
-            <p>EXPENSES</p>
-            <p>$420.54</p>
+          <section class="personal-cell expense-cell">
+            <p class="account-cell-title">EXPENSES</p>
+            <p class="account-cell-value">$420.54</p>
           </section>
-          <section class="personal-cell">
-            <p>CREDIT SCORE</p>
-            <p>673</p>
+          <section class="personal-cell credit-score-cell">
+            <p class="account-cell-title">CREDIT SCORE</p>
+            <p class="account-cell-value">673</p>
           </section>
         </div>
 
@@ -79,70 +79,70 @@
           <h2 class="recent-trans">Recent Transactions<button class="manage-transaction-button" type="button" name="button">New Transactions</button></h2>
         </div>
         <table>
-          <thead>
-            <tr>
-              <th class="table-keys" colspan="1">Date</th>
-              <th class="table-keys" colspan="1">Payee</th>
-              <th class="table-keys" colspan="1">Inflow</th>
-              <th class="table-keys" colspan="1">Outflow</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Oct 25, 2019</td>
-              <td class="payee-column">Target</td>
-              <td> - </td>
-              <td>$82.35</td>
-            </tr>
-            <tr>
-              <td>Oct 24, 2019</td>
-              <td class="payee-column">Express</td>
-              <td> - </td>
-              <td>$212.24</td>
-            </tr>
-            <tr>
-              <td>Oct 22, 2019</td>
-              <td class="payee-column">Paycheck</td>
-              <td>$1,319.12</td>
-              <td> - </td>
-            </tr>
-            <tr>
-              <td>Oct 21, 2019</td>
-              <td class="payee-column">Trader Joe's</td>
-              <td> - </td>
-              <td>$54.94</td>
-            </tr>
-            <tr>
-              <td>Oct 20, 2019</td>
-              <td class="payee-column">Shell</td>
-              <td> - </td>
-              <td>$46.23</td>
-            </tr>
-            <tr>
-              <td>Oct 19, 2019</td>
-              <td class="payee-column">Rent</td>
-              <td> $800.00 </td>
-              <td> - </td>
-            </tr>
-            <tr>
-              <td>Oct 19, 2019</td>
-              <td class="payee-column">Hapa Sushi</td>
-              <td> - </td>
-              <td>$13.97</td>
-            </tr>
-            <tr>
-              <td>Oct 18, 2019</td>
-              <td class="payee-column">pig Train</td>
-              <td> - </td>
-              <td>$4.83</td>
-            </tr>
-            <tr>
-              <td>Oct 18, 2019</td>
-              <td class="payee-column">RTD</td>
-              <td> - </td>
-              <td>$6.00</td>
-            </tr>
-          </tbody>
+
+          <tr>
+            <th class="table-keys" colspan="1">Date</th>
+            <th class="table-keys" colspan="1">Payee</th>
+            <th class="table-keys" colspan="1">Inflow</th>
+            <th class="table-keys" colspan="1">Outflow</th>
+          </tr>
+
+
+          <tr>
+            <td>Oct 25, 2019</td>
+            <td class="payee-column">Target</td>
+            <td> - </td>
+            <td>$82.35</td>
+          </tr>
+          <tr>
+            <td>Oct 24, 2019</td>
+            <td class="payee-column">Express</td>
+            <td> - </td>
+            <td>$212.24</td>
+          </tr>
+          <tr>
+            <td>Oct 22, 2019</td>
+            <td class="payee-column">Paycheck</td>
+            <td>$1,319.12</td>
+            <td> - </td>
+          </tr>
+          <tr>
+            <td>Oct 21, 2019</td>
+            <td class="payee-column">Trader Joe's</td>
+            <td> - </td>
+            <td>$54.94</td>
+          </tr>
+          <tr>
+            <td>Oct 20, 2019</td>
+            <td class="payee-column">Shell</td>
+            <td> - </td>
+            <td>$46.23</td>
+          </tr>
+          <tr>
+            <td>Oct 19, 2019</td>
+            <td class="payee-column">Rent</td>
+            <td> $800.00 </td>
+            <td> - </td>
+          </tr>
+          <tr>
+            <td>Oct 19, 2019</td>
+            <td class="payee-column">Hapa Sushi</td>
+            <td> - </td>
+            <td>$13.97</td>
+          </tr>
+          <tr>
+            <td>Oct 18, 2019</td>
+            <td class="payee-column">pig Train</td>
+            <td> - </td>
+            <td>$4.83</td>
+          </tr>
+          <tr>
+            <td>Oct 18, 2019</td>
+            <td class="payee-column">RTD</td>
+            <td> - </td>
+            <td>$6.00</td>
+          </tr>
+
         </table>
 
       </section>
@@ -156,4 +156,5 @@
 
   </main>
   <footer></footer>
+  <script src="main.js" charset="utf-8"></script>
 </body>

@@ -61,16 +61,16 @@ margin-left: 12%;
   width: 47%;
 }
 
-.welcome-header {
-  border: 2px yellow solid;
-  /* background-image: linear-gradient(#8ED1DC #E3F4F6); */
+#welcome-header {
+  /* border: 2px yellow solid; */
+  background: linear-gradient( to right, #8ED1DC, #E3F4F6);
 }
 .physical-welcome {
   display: inline-block;
   margin-left: 30px;
 }
 
-.close-icon{
+#close-icon{
   width: 10px;
   height: 20px;
   margin-left: 390px;
@@ -81,16 +81,37 @@ margin-left: 12%;
 }
 /* Personal user info <div><section1 continued> */
 .personal-account-info {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 /* income, expense, credit score */
 .personal-cell {
-  border: 2px solid black;
-  width: 200px;
+  /* border: 2px solid black; */
+  width: 163px;
   display: inline-block;
   background-color: white;
+  margin: 12px 15px;
+  padding: 16px 0;
 }
-
+.income-cell {
+  margin-left: 0px;
+}
+.expense-cell {
+margin-left: 32px;
+}
+.credit-score-cell {
+  margin-right: 0px;
+  margin-left: 37px;
+}
+.account-cell-title {
+  padding: 0 10px;
+  margin: 0px;
+  font-size: 10px;
+}
+.account-cell-value {
+  padding: 0 10px;
+  margin: 0px;
+  font-size: 18px;
+}
 /* Accounts information <section2> */
 .accounts-section {
   /* border: 2px solid green; */
@@ -106,6 +127,7 @@ margin-left: 12%;
 .manage-accounts-button {
   border: 2px #1CA3BA solid;
   background-color: #1CA3BA;
+  color: #fff;
   margin-left: 275px;
   border-radius: 2em;
   height: 30px;
@@ -137,10 +159,10 @@ margin-left: 12%;
   display: inline-block;
 }
 .account-vendor-checking{
-  margin-left: 260px;
+  margin-left: 252px;
 }
 .account-vendor-save {
-  margin-left: 280px;
+  margin-left: 253px;
 }
 .account-vendor-credit-card3 {
   margin-left: 230px;
@@ -154,9 +176,10 @@ margin-left: 12%;
   /* border: 2px solid blue; */
   float: right;
   width: 46%;
-  height: 569px;
+  height: 442px;
   margin-right: 2%;
   background-color: white;
+  padding: 10px 21px;
 }
 
 /* Transaction history title <div> */
@@ -173,17 +196,25 @@ margin-left: 12%;
 .manage-transaction-button {
   border: 2px #1CA3BA solid;
   background-color: #1CA3BA;
+  color: #fff;
   margin-left: 88px;
   border-radius: 2em;
   height: 30px;
   font-size: 18px;
   padding: 0 28px;
 }
+table {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+}
+tr {
+  border-bottom: 2px solid #CCCCCC;
+}
 .table-keys {
-  color: blue;
+  text-align: left;
 }
 .payee-column {
-
 }
 
 
