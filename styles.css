@@ -1,108 +1,141 @@
 /* <heading> */
 /* body */
-
-/* Navagation bar */
+body {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  font-family: 'Biryani', sans-serif;
+  font-color: #36;
+}
+/* Entire Navagation bar */
 .navigation-bar {
-  border: 1rem solid orange;
+  /* border: 2px solid orange; */
+  background-color: white;
   height: 100%;
-  width: 200px;
+  width: 10%;
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 /* nav icons */
 .elephant {
-  height: 115px;
-  width: 115px;
-  margin: 10px 0px 250px;
+  height: 100px;
+  width: 100px;
+  padding: 25px;
+  margin-bottom: 80px;
+
+}
+/* Listed imgs */
+.nav-link-imgs {
 
 }
 .nav-icons {
-height: 100px;
-width:100px;
+height: 60px;
+width:60px;
 }
 .img-woman {
   margin-bottom: 100%;
 }
+.wallet-img {
+  margin: 10px 0;
+}
 
 /* Main */
-
-/* Title */
+main{
+margin-left: 10%;
+  }
+/* Title of balancing act*/
 .balancing-act {
-/* display: inline-block; */
-border: 10px solid grey
+/* border: 2px solid grey; */
+padding-left: 40px;
+}
+.balancing-act h1 {
+/* padding-left: 40px; */
 }
 
 /* Main content of page <article>*/
 .main-article {
 border: 10px solid black;
-height: 900px;
+
+}
+.middle-content {
+display: inline-block;
+width: 49%;
+}
+
+.welcome-header {
+  border: 2px yellow solid;
+}
+.physical-welcome {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.close-icon{
+  width: 10px;
+  margin-left: 390px;
+  margin-bottom: 20px;
+  /* position: absolute;
+  top: 0;
+  right: 0; */
 }
 
 /* Welcoming the user <section1> */
-.welcoming-user {
-border: 10px solid yellow;
-padding: 10px;
-/* justify-content: center; */
+/* .physical-welcome {
+border: 2px solid teal;
 
-}
-.physical-welcome {
-border: 10px solid teal;
-width: 200px;
-}
+} */
 
 /* Personal user info <div><section1 continued> */
 .personal-account-info {
-border: 10px solid red;
-width: 300px;
+border: 2px solid red;
 }
 /* income, expense, credit score */
 .personal-cell {
-border: 10px solid black;
+border: 2px solid black;
 }
 
 /* Accounts information <section2> */
 .accounts-section {
-border: 10px solid green;
-width: 400px;
-height: 400px;
-float: left;
+border: 2px solid green;
 }
 
-/* contains Accounts and button */
-.accounts-header {
-border: 10px solid lightgreen;
+/* contains "Accounts" and button */
+.accounts-title {
+border: 2px solid teal;
 }
-.account {
-display: inline-block;
-}
+
 /* Manage Accounts button */
 .manage-accounts-button {
-border: solid;
+border: 2px magenta solid;
 }
 
 /* user accounts <div> */
 .user-accounts {
-border: solid;
+border: 2px lightblue solid;
 }
 
 /* individual accounts */
 .account-cells {
-border: solid;
-height: 50px;
-width: 199px;
+border: 2px coral solid;
 }
 .account-imgs {
-  height: 20px;
-  width: 20px;
+  height: 10px;
+  width: 10px;
 }
 
 /* All user transaction history <section3>*/
 .all-transactions {
-border: 2px solid green;
+border: 2px solid blue;
 float: right;
+width: 50%;
 }
 
 /* Transaction history title <div> */
-.transaction-header {
+.transaction-title {
 border: 2px solid white;
+
 }
 /* transaction title */
 .recent-trans {
@@ -110,10 +143,13 @@ border: 2px solid lightblue;
 }
 /* new transaction button */
 .manage-transaction-button {
-border: solid;
+border: 2px darkolivegreen solid;
 }
-.keys {
+.table-keys {
   color: blue;
+}
+.payee-column {
+
 }
 
 
