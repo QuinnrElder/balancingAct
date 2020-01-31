@@ -1,4 +1,3 @@
-/* <heading> */
 /* body */
 body {
   background-color: #F5F5F5;
@@ -7,9 +6,9 @@ body {
   font-family: 'Biryani', sans-serif;
   color: #363636;
 }
+
 /* Entire Navagation bar */
 .navigation-bar {
-  /* border: 2px solid orange; */
   background-color: white;
   height: 100%;
   width: 10%;
@@ -18,53 +17,72 @@ body {
   top: 0;
   left: 0;
 }
-/* nav icons */
+
+/* All Navigatin images */
 .elephant {
   height: 100px;
   width: 100px;
   padding: 25px;
   margin-bottom: 80px;
-
 }
-/* Listed imgs */
+
+/* <ul> Parent Element in navigation */
 .nav-link-imgs {
 
 }
+/* <li> navigation image elements with shared class */
 .nav-icons {
   height: 60px;
-  width:60px;
+  width: 60px;
+  padding-left: 3px;
 }
+
+.nav-icons:hover{
+  border-left: 5px solid #1CA3BA;
+}
+
+/* <li> navigation image elements with individual classes */
+.img-clipboard {
+
+}
+
 .img-woman {
   margin-bottom: 100%;
+  padding-left: 5px
 }
+
 .wallet-img {
   margin: 10px 0;
 }
 
 /* Main */
 main{
-margin-left: 12%;
-  }
-/* Title of balancing act*/
-.balancing-act {
-}
-.balancing-act h1 {
-/* padding-left: 40px; */
+  margin-left: 12%;
 }
 
-/* Main content of page <article>*/
-.main-article {
-  /* border: 10px solid black; */
+/* <h1> Title of balancing act*/
+.balancing-act {
+
 }
+
+/* <article> Main content of page */
+.main-article {
+
+}
+
+/* <section> Accounts wrapper for all of the account info */
 .middle-content {
   display: inline-block;
   width: 47%;
 }
 
+/* <id> Welcomeing the user banner */
 #welcome-header {
-  /* border: 2px yellow solid; */
   background: linear-gradient( to right, #8ED1DC, #E3F4F6);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
+
+/* <h3> Welcome text and close icon*/
 .physical-welcome {
   display: inline-block;
   margin-left: 30px;
@@ -75,55 +93,63 @@ margin-left: 12%;
   height: 20px;
   margin-left: 390px;
   margin-bottom: 20px;
-  /* position: absolute;
-  top: 0;
-  right: 0; */
 }
-/* Personal user info <div><section1 continued> */
+
+/* <div> wrapper to three user info cells */
 .personal-account-info {
-  /* border: 2px solid red; */
+
 }
-/* income, expense, credit score */
+
+/* Shared class between income, expense, credit score */
 .personal-cell {
-  /* border: 2px solid black; */
   width: 163px;
   display: inline-block;
   background-color: white;
   margin: 12px 15px;
   padding: 16px 0;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
+
+/* individual classes for income, expense, credit score */
 .income-cell {
   margin-left: 0px;
 }
+
 .expense-cell {
-margin-left: 32px;
+  margin-left: 32px;
 }
+
 .credit-score-cell {
   margin-right: 0px;
   margin-left: 37px;
 }
+
+/* shared classes for <p>-text in `personal-cell` */
 .account-cell-title {
   padding: 0 10px;
   margin: 0px;
   font-size: 10px;
 }
+
+/* shared classes for <p>-number in `personal-cell` */
 .account-cell-value {
   padding: 0 10px;
   margin: 0px;
   font-size: 18px;
 }
-/* Accounts information <section2> */
+
+/* <section> All accounts information  */
 .accounts-section {
-  /* border: 2px solid green; */
+
 }
 
-/* contains "Accounts" and button */
+/* <h2> contains Accounts title and button */
 .accounts-title {
   padding-left: 10px;
   margin-bottom: 10px;
 }
 
-/* Manage Accounts button */
+/* <button> Manage Accounts button */
 .manage-accounts-button {
   border: 2px #1CA3BA solid;
   background-color: #1CA3BA;
@@ -133,66 +159,79 @@ margin-left: 32px;
   height: 30px;
   font-size: 18px;
   padding: 0 28px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
 
-/* user accounts <div> */
+/* <div> All accounts info */
 .user-accounts {
-  /* border: 2px lightblue solid; */
+
 }
 
-/* individual accounts */
+/* shared user accounts cells */
 .account-cells {
   /* border: 2px coral solid; */
   margin: 10px 0;
   background-color: white;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
+
+/* images in account-cell with a shared class*/
 .account-imgs {
   height: 30px;
   width: 60px;
 }
+
+/* <p> vendors with shared class */
 .vendor {
   width: 10px;
   display: inline;
   margin-left: 68px;
 }
+
+/* <p> account types with shared class */
 .vendor-account-type {
   display: inline-block;
 }
-.account-vendor-checking{
+
+/* <p> individual classes of vendor type */
+.account-vendor-checking {
   margin-left: 252px;
 }
+
 .account-vendor-save {
   margin-left: 253px;
 }
+
 .account-vendor-credit-card3 {
   margin-left: 230px;
 }
+
 .account-vendor-credit-card4 {
   margin-left: 210px;
 }
 
-/* All user transaction history <section3>*/
+/* <section> All user transaction history */
 .all-transactions {
-  /* border: 2px solid blue; */
   float: right;
   width: 46%;
   height: 442px;
   margin-right: 2%;
   background-color: white;
   padding: 10px 21px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
 
-/* Transaction history title <div> */
+/* <div> Transaction history title */
 .transaction-title {
-  border: 2px solid white;
 
 }
-/* transaction title */
+
+/* <h2> transaction title text */
 .recent-trans {
   /* border: 2px solid lightblue; */
   margin-left: 25px;
 }
-/* new transaction button */
+/* <button> of transaction  */
 .manage-transaction-button {
   border: 2px #1CA3BA solid;
   background-color: #1CA3BA;
@@ -202,19 +241,28 @@ margin-left: 32px;
   height: 30px;
   font-size: 18px;
   padding: 0 28px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
+
+/* table */
 table {
   border-collapse: collapse;
   table-layout: auto;
   width: 100%;
 }
+
 tr {
   border-bottom: 2px solid #CCCCCC;
 }
+
+/* <th> header of table with shared class */
 .table-keys {
   text-align: left;
 }
+
+/* individual column with shared class */
 .payee-column {
+  font-weight: bold;
 }
 
 
