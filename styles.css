@@ -37,13 +37,13 @@ body {
   padding-left: 3px;
 }
 
-.nav-icons:hover{
-  border-left: 5px solid #1CA3BA;
-}
-
 /* <li> navigation image elements with individual classes */
 .img-clipboard {
 
+}
+
+.blue-border {
+  border-left: 3px solid #1CA3BA;
 }
 
 .img-woman {
@@ -264,24 +264,3 @@ tr {
 .payee-column {
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-xxx
