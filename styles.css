@@ -55,11 +55,16 @@ body {
   margin: 10px 0;
 }
 
-/* Main */
+/* Main # 1*/
 main{
   margin-left: 12%;
 }
 
+.hello:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
 /* <h1> Title of balancing act*/
 .balancing-act {
 
@@ -263,4 +268,98 @@ tr {
 /* individual column with shared class */
 .payee-column {
   font-weight: bold;
+}
+
+
+
+/* inner page that loads on click of wallet */
+/* main 2 */
+.boo-me {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0
+  font-family: 'Biryani', sans-serif;
+  color: #363636;
+}
+
+/* wrapper <header> to main2 */
+.header-title {
+  margin: 0 2.5%;
+}
+/* title of new page */
+.h1-transaction {
+  border: 2px blue solid;
+  display: inline-block;
+}
+/* <section> wrapping butttons */
+.three-transaction-buttons {
+  display: inline-block;
+  border: 2px red solid;
+
+}
+
+.button-shared-class {
+
+}
+
+.article-wrapping-both-table-form {
+  
+}
+/* <table2> */
+.table2-wrapper {
+  width: 42%;
+  height: 31rem;
+  background-color: #ffffff;
+  margin: 0 2.5% 3% 0;
+  padding: 2.5%;
+  display: inline-block;
+}
+
+.table-legend {
+  text-align: left;
+}
+.account-column2 {
+  font-weight: bold;
+}
+
+.new-transactions {
+  display: inline-block;
+    border: 2px solid blue;
+    width: 40%;
+    margin: 0 3%;
+    vertical-align: top;
+    background-color: #ffffff;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.new-transaction-form {
+  margin: 0 13%;
+  height: 30rem;
+}
+
+.title-of-input {
+  display: block;
+}
+
+.new-transaction-dropdown {
+  width: 92%;
+  height: 2rem;
+}
+
+.new-transaction-input {
+  width: 90%;
+  height: 2rem;
+}
+.new-transaction-submit-button {
+  width: 7rem;
+    border: 2px #1CA3BA solid;
+    background-color: #1CA3BA;
+    color: #fff;
+    border-radius: 2em;
+    height: 2rem;
+    margin: 1em 0;
 }
