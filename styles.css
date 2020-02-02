@@ -7,7 +7,7 @@ body {
   color: #363636;
 }
 
-/* Entire Navagation bar */
+/* inside <header> Entire Navagation bar */
 .navigation-bar {
   background-color: white;
   height: 100%;
@@ -19,7 +19,7 @@ body {
 }
 
 /* All Navigatin images */
-.elephant {
+.elephant-img {
   height: 100px;
   width: 100px;
   padding: 25px;
@@ -37,13 +37,12 @@ body {
   padding-left: 3px;
 }
 
-/* <li> navigation image elements with individual classes */
-.img-clipboard {
-
-}
-
+/* blue-border that moves between nav icons */
 .blue-border {
   border-left: 3px solid #1CA3BA;
+}
+/* <li> navigation image elements with individual classes */
+.img-clipboard {
 }
 
 .img-woman {
@@ -55,16 +54,17 @@ body {
   margin: 10px 0;
 }
 
-/* Main # 1*/
+/* Main "clipboard-main-pages"*/
 main{
   margin-left: 12%;
 }
 
-.hello:after {
+/* .clipboard-main-pages:after {
   content: " ";
   display: table;
   clear: both;
-}
+} */
+
 /* <h1> Title of balancing act*/
 .balancing-act {
 
@@ -105,7 +105,7 @@ main{
 
 }
 
-/* Shared class between income, expense, credit score */
+/* Shared class between income, expense, credit score cells*/
 .personal-cell {
   width: 163px;
   display: inline-block;
@@ -115,7 +115,7 @@ main{
   box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
 
-/* individual classes for income, expense, credit score */
+/* individual classes for income, expense, credit score cells*/
 .income-cell {
   margin-left: 0px;
 }
@@ -136,7 +136,7 @@ main{
   font-size: 10px;
 }
 
-/* shared classes for <p>-number in `personal-cell` */
+/* shared classes for <p> `personal-cell` */
 .account-cell-value {
   padding: 0 10px;
   margin: 0px;
@@ -174,7 +174,6 @@ main{
 
 /* shared user accounts cells */
 .account-cells {
-  /* border: 2px coral solid; */
   margin: 10px 0;
   background-color: white;
   box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
@@ -249,7 +248,7 @@ main{
   box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
 
-/* table */
+/* table for transacions in clipboard-html*/
 table {
   border-collapse: collapse;
   table-layout: auto;
@@ -270,10 +269,8 @@ tr {
   font-weight: bold;
 }
 
-
-
 /* inner page that loads on click of wallet */
-/* main 2 */
+/* main wallet-html */
 .boo-me {
   background-color: #F5F5F5;
   margin: 0;
@@ -285,40 +282,58 @@ tr {
 /* wrapper <header> to main2 */
 .header-title {
   margin: 0 2.5%;
+  margin-top: 3%
 }
 /* title of new page */
 .h1-transaction {
-  display: inline-block;
+  display: inline;
 }
-/* <section> wrapping butttons */
+/* <section> wrapping all three butttons */
 .three-transaction-buttons {
   display: inline-block;
   width: 33.4%;
 }
 
+/* shared vlass for all three buttons "all, inflow, outflow" */
 .button-shared-class {
     border-radius: 2em;
     height: 2rem;
     font-size: 1em;
     padding: 0 1.75rem;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+    border: 2px #1CA3BA solid;
+    color: #1CA3BA;
 }
 
-.flow-buttons-details {
-  border: 2px #1CA3BA solid;
-  color: #1CA3BA;
-}
-
+/* class for just the all button */
 .all-button {
+  margin-left: 14.8%;
+}
+
+.all-button:hover {
   border: 2px #1CA3BA solid;
   background-color: #1CA3BA;
-  margin-left: 25.8%;
+  color: #fff;
 }
 
+/* class for inflow buttons only */
+.inflow-button-details:hover {
+  border: 2px #1CA3BA solid;
+  background-color: #1CA3BA;
+  color: #fff;
+}
+
+.outflow-button-details:hover {
+  border: 2px #1CA3BA solid;
+  background-color: #1CA3BA;
+  color: #fff;
+}
+
+/* <aricle> wrapping pages two main sections */
 .article-wrapping-both-table-form {
 
 }
-/* <table2> */
+/* <table> in wallet-html*/
 .table2-wrapper {
   width: 42%;
   height: 31rem;
@@ -326,6 +341,7 @@ tr {
   margin: 0 2.5% 3% 0;
   padding: 2.5%;
   display: inline-block;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
 
 .table-legend {
@@ -335,43 +351,50 @@ tr {
   font-weight: bold;
 }
 
+/* <section> wrapping recent transactios */
 .new-transactions {
   display: inline-block;
-    width: 40%;
-    margin: 0 3%;
-    vertical-align: top;
-    background-color: #ffffff;
-
+  width: 40%;
+  margin: 0 3%;
+  vertical-align: top;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
 
+/* new transactions */
 h2 {
   text-align: center;
 }
-
+/* <form> wrapper */
 .new-transaction-form {
   margin: 0 13%;
   height: 30rem;
 }
 
+/* "title" to the drop down input as well as normal input */
 .title-of-input {
   display: block;
 }
 
+/* shared class of dropdown input bar */
 .new-transaction-dropdown {
   width: 92%;
   height: 2rem;
 }
 
+/* shared class of the input bar 'not dropdown input' */
 .new-transaction-input {
   width: 90%;
   height: 2rem;
 }
+
+/* submit button */
 .new-transaction-submit-button {
   width: 7rem;
-    border: 2px #1CA3BA solid;
-    background-color: #1CA3BA;
-    color: #fff;
-    border-radius: 2em;
-    height: 2rem;
-    margin: 1em 0;
+  border: 2px #1CA3BA solid;
+  background-color: #1CA3BA;
+  color: #fff;
+  border-radius: 2em;
+  height: 2rem;
+  margin: 1em 0;
 }
