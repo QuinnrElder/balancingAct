@@ -41,12 +41,12 @@ function clipboardBorder() {
 }
 
 
-var outer = document.querySelector(".outer")
-
-clickClipboard.addEventListener("click", outerPage)
-function outerPage () {
-  outer.hidden = false
-}
+// var outer = document.querySelector(".outer")
+//
+// clickClipboard.addEventListener("click", outerPage)
+// function outerPage () {
+//   outer.hidden = false
+// }
 
 var mainContainer = document.querySelector(".main-article")
 function innerhtmlTest() {
@@ -56,8 +56,8 @@ function innerhtmlTest() {
   <section class="three-transaction-buttons">
 
       <button class="button-shared-class all-button" type="button" name="button">All</button>
-      <button class="button-shared-class" type="button" name="button">Inflow</button>
-      <button class="button-shared-class" type="button" name="button">Outflow</button>
+      <button class="button-shared-class flow-buttons-details" type="button" name="button">Inflow</button>
+      <button class="button-shared-class flow-buttons-details" type="button" name="button">Outflow</button>
 
   </section>
 </header>
@@ -219,7 +219,6 @@ function innerhtmlTest() {
       <input class="new-transaction-submit-button" type="submit" name="submit-button" value="Log Expense">
     </form>
   </section>
- </article>
-</main>`
+ </article>`
 }
 // call innerHTML function in the wallet button
