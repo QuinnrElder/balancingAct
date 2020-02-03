@@ -51,3 +51,28 @@ function secondMainHtml(){
   mainHtmlClipboard.hidden = true
   mainHtmlWallet.hidden = false
 }
+
+// var's create hooks to individual classes of butttons
+var allButton = document.querySelector(".all-button-details")
+var inflowButton = document.querySelector(".inflow-button-details")
+var outflowButton = document.querySelector(".outflow-button-details")
+// creating an addEventListener for the click on each button
+allButton.addEventListener("click", runClickAll)
+inflowButton.addEventListener("click", runClickInflow)
+outflowButton.addEventListener("click", runClickOutflow )
+// function for click of allButton
+function runClickAll(){
+  allButton.id = "solid-blue-button"
+  inflowButton.id = ""
+  outflowButton.id = ""
+}
+function runClickInflow() {
+  allButton.id = ""
+  inflowButton.id = "solid-blue-button"
+  outflowButton.id = ""
+}
+function runClickOutflow(){
+  allButton.id = ""
+  inflowButton.id = ""
+  outflowButton.id = "solid-blue-button"
+}
